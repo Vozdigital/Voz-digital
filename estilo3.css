@@ -1,0 +1,177 @@
+/* Reseteo de estilos predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ffad9f;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #96462d;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Media luna con texto "Ciberacoso" */
+.media-luna {
+  width: 800px;
+  height: 100px;
+  background-color: #96462d; /* Rojo para el fondo */
+  border-radius: 0 0 100px 100px; /* Forma de media luna */
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 100px; /* Centrar el texto verticalmente */
+}
+
+.media-luna p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: #fff;
+  font-size: 25px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f39c12;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+/* Fondo para las secciones */
+#inicio {
+  background-color: #96462d;
+}
+
+#spotify {
+  background-color: #96462d; /* Verde de Spotify */
+  color: #fff;
+}
+
+#blog {
+  background-color: #96462d; /* Azul de blog */
+  color: #fff;
+}
+
+#ods {
+  background-color: #96462d; /* Verde ODS */
+  color: #fff;
+}
+
+#acerca-de-nosotros {
+  background-color: #96462d; /* Gris oscuro */
+  color: #fff;
+}
+
+.title {
+    background-color: #7a2e1a;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+.card::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #d6a07a;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+
+.ods4-image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+.ods5-image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+.ods10-image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+.ods16-image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
